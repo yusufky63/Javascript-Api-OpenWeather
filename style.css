@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url('https://c.wallhere.com/photos/b1/69/abstract-146982.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item {
+    height: 180px;
+    width: 150px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.desc {
+    width: 240px;
+}
+
+.temp,
+.minmax {
+    padding-top: 60px;
+}
+
+.city {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 25px;
+}
+
+.content {
+    width: auto;
+    height: 290px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 25px;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+input {
+    margin: 15px 0 15px 0;
+    outline: none;
+    border-style: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    background-color: #ffffff3c;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    letter-spacing: 4px;
+    display: inline;
+    border-radius: 25px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: black;
+    text-decoration: none;
+}
